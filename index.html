@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I-Talent — Portfolio</title>
+    <meta
+      name="description"
+      content="I-Talent portfolio: zelfvoorstelling en verslag over leerproces en activiteiten."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="logo" href="#intro">I-Talent</a>
+      <nav class="nav" aria-label="Hoofdnavigatie">
+        <a href="#intro">Intro</a>
+        <a href="#verslag">Verslag</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Zelfvoorstelling — bewust ‘chaotischer’ vormgeving -->
+      <section id="intro" class="section section--intro">
+        <div class="intro-grid">
+          <div class="intro-card intro-card--title">
+            <p class="eyebrow">Zelfvoorstelling</p>
+            <h1 class="headline">
+              <span class="headline__line">Hoi, ik ben</span>
+              <span class="headline__name">Jouw Naam</span>
+            </h1>
+          </div>
+
+          <div class="intro-card intro-card--photo">
+            <div class="photo-placeholder">
+              <span>Foto</span>
+              <small>vervang deze placeholder</small>
+            </div>
+          </div>
+
+          <div class="intro-card intro-card--study">
+            <h2 class="card-title">Opleiding &amp; context</h2>
+            <p>
+              Ik volg <strong>[opleiding / jaar]</strong> aan
+              <strong>[school]</strong>. In dit portfolio vertel ik hoe mijn
+              I-Talent-traject eruitzag: wat ik deed, wat ik leerde en hoe ik
+              daarover reflecteer.
+            </p>
+          </div>
+
+          <div class="intro-card intro-card--story">
+            <h2 class="card-title">Even voorstellen</h2>
+            <p>
+              [Schrijf hier kort wie je bent: interesses binnen IT of school,
+              wat je graag doet in projecten, en misschien iets persoonlijks dat
+              past bij jouw verhaal — zonder te veel prive-informatie als je
+              dat niet wilt.]
+            </p>
+          </div>
+
+          <div class="intro-card intro-card--focus">
+            <h2 class="card-title">Waarom dit portfolio</h2>
+            <p>
+              [Waarom deze keuzes, wat wil je tonen aan je docent, en wat hoop je
+              dat de lezer meeneemt na het lezen.]
+            </p>
+          </div>
+        </div>
+
+        <p class="scroll-hint">
+          <span>Scroll verder voor het verslag</span>
+          <span class="scroll-hint__arrow" aria-hidden="true">↓</span>
+        </p>
+      </section>
+
+      <!-- Verslag — rustiger opbouw -->
+      <section id="verslag" class="section section--report">
+        <header class="report-header">
+          <p class="eyebrow eyebrow--calm">Verslag</p>
+          <h2 class="report-title">Inhoud van het verslag</h2>
+          <p class="report-lead">
+            Hieronder structuur je het officiële verslag: pas titels en
+            alinea’s aan volgens je Word-template en beoordelingscriteria.
+          </p>
+        </header>
+
+        <article class="report-chapter" id="context">
+          <h3>1. Context en opdracht</h3>
+          <p>
+            [Beschrijf de context van I-Talent binnen je opleiding: wat is de
+            opdracht, welke eisen of rubric gelden, en wat was jouw startpunt —
+            bijvoorbeeld onzekerheid, veel ideeën, of concrete verwachtingen.]
+          </p>
+        </article>
+
+        <article class="report-chapter" id="aanpak">
+          <h3>2. Aanpak en planning</h3>
+          <p>
+            [Hoe ben je te werk gegaan: planning, tools, communicatie met
+            begeleiders, tussenmomenten. Wat ging goed en wat moest bijgestuurd
+            worden?]
+          </p>
+        </article>
+
+        <article class="report-chapter" id="activiteiten">
+          <h3>3. Activiteiten en bewijsmateriaal</h3>
+          <p>
+            [Per activiteit of mijlpaal: wat heb je gedaan, welk resultaat
+            leverde het op, en waar staat het bewijs — screenshots, links,
+            documenten. Je kunt hier later subkopjes of een lijst toevoegen.]
+          </p>
+          <ul class="checklist">
+            <li>Activiteit / mijlpaal — korte beschrijving</li>
+            <li>Activiteit / mijlpaal — korte beschrijving</li>
+            <li>Activiteit / mijlpaal — korte beschrijving</li>
+          </ul>
+        </article>
+
+        <article class="report-chapter" id="resultaat">
+          <h3>4. Resultaat</h3>
+          <p>
+            [Wat is het eindresultaat van je traject: deliverables, een link naar
+            een repo of demo, en hoe sluit dat aan bij de doelen van de
+            opdracht?]
+          </p>
+        </article>
+
+        <article class="report-chapter" id="reflectie">
+          <h3>5. Reflectie</h3>
+          <p>
+            [Reflecteer op je leerproces: wat nam je mee van “chaos” naar
+            “rust”? Welke competenties zijn sterker geworden, wat zou je een
+            volgende keer anders doen?]
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        I-Talent portfolio · <span data-year></span> ·
+        <a href="#intro">Terug naar boven</a>
+      </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
